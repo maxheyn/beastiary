@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "translate": "Beastiary - Overworld Land Caves                               "
+        },
+        "description": [
+            {
+                "translate": "Creatures found on land in the Overworld, only in caves.",
+                "color": "green"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-1652456220,-1052620836,-1596456910,-747451955],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVkMDk4MmU5YWQ5YjRiNDJmMWNjYzM5NjcxOGU2NzUwMGU3ZmJhNmVlMmFiNzQ3OGI0YzgzODNiOTU4ZDEyOCJ9fX0='}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "global:beastiary/beastiary",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
